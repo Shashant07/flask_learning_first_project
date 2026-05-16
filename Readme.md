@@ -1,57 +1,81 @@
-🚀 Flask Basic Application
+# 🚀 Simple Flask Application
 
-A simple Flask web application built using Python.
-This project demonstrates basic routing and server setup.
+A basic web application built using Flask (Python micro web framework).
 
-📌 Features
-Simple Flask server
-Basic routing
-Development mode enabled
-Easy project structure
-🛠 Tech Stack
-Python 3.x
-Flask
-📂 Project Structure
-flask-project/
-│
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/flask-project.git
+------------------------------------------------------------------------
+
+## 📌 About
+
+This project demonstrates: - Basic Flask setup - Simple route handling -
+Running a development server - Using virtual environment - Managing
+dependencies
+
+------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+-   Python 3.x
+-   Flask
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+flask-project/ │ ├── app.py ├── requirements.txt ├── .gitignore └──
+README.md
+
+------------------------------------------------------------------------
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/flask-project.git\
 cd flask-project
-2️⃣ Create Virtual Environment
+
+### 2️⃣ Create Virtual Environment
+
 python -m venv venv
 
 Activate virtual environment:
 
-Windows
+Windows: venv`\Scripts`{=tex}`\activate  `{=tex}
 
-venv\Scripts\activate
+Mac/Linux: source venv/bin/activate
 
-Mac/Linux
+------------------------------------------------------------------------
 
-source venv/bin/activate
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
-If you don't have requirements.txt, install Flask manually:
+If requirements.txt is not available:
 
 pip install flask
-4️⃣ Run the Application
+
+------------------------------------------------------------------------
+
+### 4️⃣ Run the Application
+
 python app.py
 
-Or using Flask command:
+OR
 
 flask run
-🌐 Access the App
 
-Open your browser and go to:
+------------------------------------------------------------------------
+
+## 🌐 Access the Application
+
+Open your browser and visit:
 
 http://127.0.0.1:5000
-📄 Example app.py
+
+------------------------------------------------------------------------
+
+## 📄 Example app.py
+
+``` python
 from flask import Flask
 
 app = Flask(__name__)
@@ -62,16 +86,29 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
-🧪 Development Notes
-debug=True enables auto reload.
-Use .env file to manage environment variables.
-Never commit secrets to GitHub.
-📦 Create requirements.txt
+```
 
-After installing packages:
+------------------------------------------------------------------------
 
-pip freeze > requirements.txt
-👨‍💻 Author
+## 📦 Generate requirements.txt
 
-Shashant Pandit
-GitHub: https://github.com/shashant07
+pip freeze \> requirements.txt
+
+------------------------------------------------------------------------
+
+## 🔐 Notes
+
+-   Keep .env file in .gitignore
+-   Do not commit secret keys
+-   Use debug=True only in development
+
+------------------------------------------------------------------------
+
+## 👨‍💻 Author
+
+Your Name\
+GitHub: https://github.com/your-username
+
+------------------------------------------------------------------------
+
+⭐ Feel free to fork, improve, and build upon this project!
