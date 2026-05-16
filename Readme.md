@@ -21,8 +21,12 @@ dependencies
 
 ## 📂 Project Structure
 
-flask-project/ │ ├── app.py ├── requirements.txt ├── .gitignore └──
-README.md
+flask-project/ 
+│ 
+├── app.py 
+├── requirements.txt 
+├── .gitignore 
+└── README.md
 
 ------------------------------------------------------------------------
 
@@ -30,8 +34,8 @@ README.md
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/flask-project.git\
-cd flask-project
+git clone https://github.com/Shashant07/flask_learning_first_project.git
+cd flask_learning_first_project
 
 ### 2️⃣ Create Virtual Environment
 
@@ -39,7 +43,10 @@ python -m venv venv
 
 Activate virtual environment:
 
-Windows: venv`\Scripts`{=tex}`\activate  `{=tex}
+Windows:
+.venv\Scripts\activate		//cmd
+.\venv\Scripts\activate.bat 	//Power shell.
+
 
 Mac/Linux: source venv/bin/activate
 
@@ -106,8 +113,8 @@ pip freeze \> requirements.txt
 
 ## 👨‍💻 Author
 
-Your Name\
-GitHub: https://github.com/your-username
+Shashant pandit
+GitHub: https://github.com/shashant07
 
 ------------------------------------------------------------------------
 
